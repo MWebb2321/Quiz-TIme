@@ -6,3 +6,19 @@ body {
   text-align: center;
   background-color: #f8f6f0;
 }
+
+.base-timer {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.base-timer_circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer_path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
