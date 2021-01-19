@@ -1,24 +1,8 @@
 body {
-  font-size: 20px;
-  font-family: "Work Sans", sans-serif;
-  color: #333;
-  font-weight: 300;
+  align-content: center;
   text-align: center;
-  background-color: #f8f6f0;
 }
 
-.base-timer {
-  position: relative;
-  height: 300px;
-  width: 300px;
-}
-
-.base-timer_circle {
-  fill: none;
-  stroke: none;
-}
-
-.base-timer_path-elapsed {
-  stroke-width: 7px;
-  stroke: grey;
+p {
+  text-size-adjust: 18px;
 }
