@@ -1,0 +1,66 @@
+body {
+  color: #fff;
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 12px;
+  width: 100%;
+  border-radius: 4px;
+  background: purple;
+  font-size: 32px;
+  min-width: 75px;
+}
+
+.choice-prefix {
+  padding: 32px 40px;
+  color: white;
+}
+
+.choice-text {
+  padding: 32px;
+  width: 100%;
+}
+
+.correct {
+  background: linear-gradient(green);
+}
+
+.incorrect {
+  background: linear-gradient(red);
+}
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 32px;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 320px;
+  height: 48px;
+  border: 3px limegreen;
+  margin-top: 32px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#progressBarFull {
+  height: 100%;
+  background: limegreen;
+  width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  .choice-container {
+    min-width: 640px;
+  }
+}

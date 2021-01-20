@@ -1,5 +1,5 @@
 :root {
-  background-color: rgb(29, 26, 26);
+  background-color: rgb(113, 74, 74);
 }
 
 * {
@@ -11,13 +11,13 @@
 }
 
 h1 {
-  font-size: 5.4rem;
+  font-size: 86px;
   color: #fff;
-  margin-bottom: 5rem;
+  margin-bottom: 80px;
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 68px;
 }
 
 .container {
@@ -26,9 +26,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 80rem;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 32px;
 }
 
 .flex-column {
