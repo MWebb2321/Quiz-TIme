@@ -1,5 +1,5 @@
 :root {
-  background-color: rgb(113, 74, 74);
+  background-color: rgb(245, 245, 245);
 }
 
 * {
@@ -10,9 +10,17 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+header {
+  font-size: 25px;
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+  text-decoration-style: wavy;
+}
+
 h1 {
   font-size: 86px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 80px;
 }
 
